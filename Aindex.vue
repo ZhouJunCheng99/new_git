@@ -1,5 +1,6 @@
 <template>
   <div id="index" ref="appRef">
+    <div>
     <div class="bg">
       <dv-loading v-if="loading">Loading...</dv-loading>
       <div v-else class="host-body">
